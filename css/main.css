@@ -174,13 +174,11 @@ header .fa-arrow-circle-down {
 }
 
 #aboutus-hero .jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
-  height: 40vh;
-  background-image: url(/img/bear-S.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
+  padding: 60px 0;
   background-image: url("../img/bydgoszcz-418818_1920.jpg");
   overflow: hidden;
   background-position: center 0;
