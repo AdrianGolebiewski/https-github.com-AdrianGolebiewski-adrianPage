@@ -16,7 +16,7 @@ body {
 }
 
 .blue-text {
-  color: #097bc2;
+  color: #f7f7f7;
 }
 
 .wrapper {
@@ -58,13 +58,13 @@ nav {
 }
 
 nav a, nav i {
-  color: #097bc2;
+  color: #050103;
   -webkit-transition: color .6s;
   transition: color .6s;
 }
 
 nav a:hover {
-  color: #097bc2;
+  color: #360a1e;
 }
 
 nav i {
@@ -81,11 +81,11 @@ nav .navbar-brand img {
 }
 
 nav .active {
-  color: #cf1965;
+  color: #a79ea2;
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #501414cc;
 }
 
 header {
