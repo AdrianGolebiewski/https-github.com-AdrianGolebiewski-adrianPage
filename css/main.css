@@ -15,18 +15,19 @@ body {
   background-color: #333;
 }
 
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .blue-text {
   color: #f7f7f7;
 }
 
 .wrapper {
+  max-width: 2556px;
   width: 80%;
   margin: auto;
-}
-
-.wrapper h2 {
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .underline {
@@ -58,13 +59,13 @@ nav {
 }
 
 nav a, nav i {
-  color: #050103;
+  color: #097bc2;
   -webkit-transition: color .6s;
   transition: color .6s;
 }
 
 nav a:hover {
-  color: #360a1e;
+  color: #097bc2;
 }
 
 nav i {
@@ -85,7 +86,7 @@ nav .active {
 }
 
 .shadow-bg {
-  background-color: #501414cc;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 header {

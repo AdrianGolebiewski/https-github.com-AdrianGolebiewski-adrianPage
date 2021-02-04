@@ -12,17 +12,18 @@ body
     position: relative
     font-family: 'Montserrat', sans-serif
     background-color: #333
+h2
+    text-transform: uppercase
+    text-align: center
 .blue-text
     color: #f7f7f7 
 
 
 .wrapper
+    max-width: 2556px
     width: 80%
     margin: auto
     
-    h2
-        text-transform: uppercase
-        text-align: center
 /////fajne do cen i podkreśleń ogólnie. 
 .underline
     margin: 0 auto 40px
@@ -50,11 +51,11 @@ nav
     text-transform: uppercase
     
     a, i 
-        color: #050103
+        color: $blue-color
         transition:  color .6s
 
     a:hover 
-        color: #360a1e
+        color: $blue-color
 
     i 
         padding: 10px
@@ -72,7 +73,7 @@ nav
      
 
 .shadow-bg
-    background-color: #501414cc 
+    background-color: rgba(0,0,0,.8) 
    
     
 
