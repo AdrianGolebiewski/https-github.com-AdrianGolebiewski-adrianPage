@@ -59,13 +59,14 @@ nav {
 }
 
 nav a, nav i {
-  color: #097bc2;
+  color: #F2EDE4;
   -webkit-transition: color .6s;
   transition: color .6s;
+  font-size: 130%;
 }
 
 nav a:hover {
-  color: #097bc2;
+  color: #A62B1F;
 }
 
 nav i {
@@ -86,11 +87,11 @@ nav .active {
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #323436;
 }
 
 header {
-  color: #fff;
+  color: #F2EDE4;
   overflow: hidden;
 }
 
@@ -146,6 +147,10 @@ header .fa-arrow-circle-down {
   display: none;
 }
 
+#aboutus .jumbotron {
+  background-color: #F2EDE4;
+}
+
 #aboutus i {
   margin-top: 20px;
   font-size: 30px;
@@ -170,7 +175,7 @@ header .fa-arrow-circle-down {
 }
 
 #aboutus-hero {
-  color: #ececec;
+  color: #F2EDE4;
   overflow: hidden;
 }
 
@@ -244,6 +249,10 @@ header .fa-arrow-circle-down {
 
 #portfolio .carousel-indicators {
   padding-bottom: 20px;
+}
+
+.price-box {
+  margin: 20px;
 }
 
 @media (min-width: 375px) {
