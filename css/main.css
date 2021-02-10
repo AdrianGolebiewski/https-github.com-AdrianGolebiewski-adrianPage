@@ -147,6 +147,10 @@ header .fa-arrow-circle-down {
   display: none;
 }
 
+header nav {
+  margin: 0% 10% 0;
+}
+
 #aboutus .jumbotron {
   background-color: #F2EDE4;
 }
